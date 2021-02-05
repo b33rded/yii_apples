@@ -1,5 +1,6 @@
 Project apples.
+
 Main part is in backend.
 Models etc in common.
 
-Console daemon in - guess it - console part, currently auto-start only for linux systems and i think not recommended for big databases.
+Console daemon "apple-check/run-daemon" starts from common/components/CheckerBootstrap and config in backend part.
